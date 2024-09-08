@@ -1,4 +1,6 @@
 // Sorry for the late submissions. I am still stuck on how to make my Constructor  'TaxTableTools(int[], double[])' be used within my code.
+// My main challenges for this code was updating the TaxTable with setTables(), and implementing the overloaded constructor and the setter method while making sure the code runs and have no errors.
+// I was more so confused how some lines had no usage, but when I were to comment it out, it many errors in others lines, so I wasn't too sure if the usage really matters or not.
 
 import java.util.Scanner;
 
