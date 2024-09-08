@@ -1,3 +1,9 @@
+// At the beginning, it was challenging to understand and differentiate stack vs. heap. It's important to know that local 
+// variables (like references) are stored in stack, while the actual object ( and instance variables) reside in heap.
+// After class, when it came to implementing, I struggled more with teh garbage collecting, and how System.gc() isn't guaranteed
+// immediate actions. It was a little confusing understanding how java determines when to collect unused objects and how the finalize()
+//method works or don't always work.
+
 public class Person {
     // instance variables stored in heap memory
     private String name;
