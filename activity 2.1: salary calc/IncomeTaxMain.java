@@ -1,3 +1,8 @@
+// my main challenge for this code was getting the setter method to work. I originally combined the default constructor and the 
+// setter as 'TaxTableTools table = new TaxTabeTools(salary, taxTable);' but it was better to separate it to 'TaxTableTools table = new TaxTableTools();' and 
+// 'table.setTable(salary,taxTable);' because i realized that the constructor is used for initializing objects with its default stae, while setter methods allows
+// more flexibility in updating or modifying that state later on and I have had them written together making the code create errors.
+
 import java.util.Scanner;
 
 public class IncomeTaxMain {
