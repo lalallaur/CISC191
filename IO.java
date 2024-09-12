@@ -5,7 +5,7 @@ public class IO {
         int usrInput1;
         int usrInput2;
         //Select user inputs 12 (only integers)
-        usrInput1 = System.in.read();
+        usrInput1 = System.in.read(); //
         usrInput2 = System.in.read();
         System.out.println("Where this " + usrInput1 + " comes from?");
         //You need an ASCII table to proof the answer
@@ -16,4 +16,3 @@ public class IO {
     }
 }
 
-// 
